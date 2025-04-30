@@ -61,5 +61,5 @@ print id
 
 ## How to run
 - `flex your_file.l`
-- `gcc lex.yy.c -o your_executable -lfl`
+- `gcc lex.yy.c -o your_executable -ll`
 - `./your_executable < example.txt > output.txt`
