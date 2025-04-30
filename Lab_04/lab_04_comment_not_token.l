@@ -6,7 +6,7 @@
 %%
 
 
-\/\/.* { printf("COMMENT "); }
+\/\/.* /*Ignore comments*/
 
 "f" { printf("floatdcl "); }
 "i" { printf("intdcl "); }
